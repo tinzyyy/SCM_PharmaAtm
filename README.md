@@ -15,7 +15,7 @@ This contract demonstrates the usage of `require()`, `assert()`, and `revert()` 
 
 `addFunds:` A function that allows users to deposit funds into the ATM. It takes an amount parameter and adds it to the ATM's balance.
 
-`pay:` This function enables users to withdraw funds from the ATM. It deducts the specified amount from the ATM's balance and transfers it to the user.
+`pay:` This function enables users to pay medicine from the ATM. It deducts the specified amount from the ATM's balance and transfers it to the user.
 
 `getBalance:` A function that retrieves the current balance of the ATM.
 
@@ -36,7 +36,7 @@ In the third terminal, type: npx hardhat run --network localhost scripts/deploy.
 Back in the first terminal, type npm run dev to launch the front-end.
 After this, the project will be running on your localhost, typically at http://localhost:3000/.
 
-
+Assessment.sol
 
 ```Solidity
 
@@ -103,6 +103,7 @@ contract PharmaAtm {
 
 ```
 
+Index.js
 
 ```JS
 
@@ -261,3 +262,10 @@ export default function HomePage() {
 }
 
 ```
+
+This is the whole functionality within the code itself and the generalization of how the code will run.
+
+
+#### Authors
+Baquiran, Kristine Mae P. 
+8215029@ntc.edu.ph
